@@ -6,6 +6,8 @@ if ($var) {
 }
 ```
 
+This code above produces a `PHP Notice: Undefined variable: var`
+
 Use instead:
 
 ```php

@@ -1,19 +1,17 @@
-```php
-<?php
+This code above produces a PHP Notice:
+<br>
+<strong>Undefined variable: var</strong>
 
+<div class="bad"><pre class="brush: php">
 if ($var) {
     // do something with $var
 }
-```
-
-This code above produces a `PHP Notice: Undefined variable: var`
+</pre></div>
 
 Use instead:
 
-```php
-<?php
-
+<div class="good"><pre class="brush: php">
 if (!empty($var)) {
     // do something with $var
 }
-```
+</pre></div>

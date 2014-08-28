@@ -1,3 +1,6 @@
+# id: 1
+# lang: php
+# tags: if, empty
 This code above produces a PHP Notice:
 <br>
 <strong>Undefined variable: var</strong>

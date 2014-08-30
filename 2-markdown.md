@@ -1,6 +1,7 @@
 # id: 2
 # lang: php
 # tags: if, empty
+
 This code above produces a PHP Notice: `Undefined variable: var`
 
 ```php bad

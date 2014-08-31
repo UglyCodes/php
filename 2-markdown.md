@@ -4,7 +4,8 @@
 
 This code above produces a PHP Notice: `Undefined variable: var`
 
-```php bad
+#bad
+```php
 if ($var) {
     // do something with $var
 }
@@ -12,7 +13,8 @@ if ($var) {
 
 Use instead:
 
-```php good
+#good
+```php
 if (!empty($var)) {
     // do something with $var
 }

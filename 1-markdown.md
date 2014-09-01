@@ -1,10 +1,10 @@
-# id: 2
+# id: 1
 # lang: php
 # tags: if, empty
 
 This code above produces a PHP Notice: `Undefined variable: var`
 
-#bad
+bad
 ```php
 if ($var) {
     // do something with $var
@@ -13,7 +13,7 @@ if ($var) {
 
 Use instead:
 
-#good
+good
 ```php
 if (!empty($var)) {
     // do something with $var
